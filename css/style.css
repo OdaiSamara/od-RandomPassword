@@ -1,0 +1,66 @@
+body{
+    height: 100vh;
+    display: flex;
+    justify-content: center;
+    align-content: center;
+    background-image: linear-gradient(30deg,blue,skyblue);
+}
+.container{
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    position: relative;
+}
+#input{
+    height: 30px;
+    width: 100%;
+    text-align: center;
+    border: none;
+    border-radius: 16px;
+    color: rgb(61, 59, 59);
+    font-size: 20px;
+    font-weight: bold;
+}
+button{
+    width: 30%;
+    margin: 5px;
+    cursor: pointer;
+    border: none;
+    border-radius: 16px;
+    font-size: 20px;
+    font-weight: bold;
+    color: rgb(61, 59, 59);
+}
+#pr{
+    position: absolute;
+    margin-top: 100px;
+    width: 50%;
+    height: 35px;
+    text-align: center;
+    background-color: white;
+    border: 3px solid lightskyblue;
+    border-radius: 50px;
+    color: rgb(61, 59, 59);
+    font-size: 20px;
+    font-weight: bold;
+}
+:focus{
+   outline-color:lightskyblue;
+}
+.choise{
+    display: flex;
+    position: absolute;
+    margin-top: 220px;
+}
+.radio{
+    display: flex;
+    align-items: baseline;
+    justify-content: center;
+    border: 2px solid lightskyblue;
+    border-radius: 16px;
+    padding: 5px 5px 0px;
+    font-size: 20px;
+    font-weight: bold;
+    margin-right: 20px;
+  
+}
